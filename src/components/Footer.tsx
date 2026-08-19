@@ -57,7 +57,6 @@ export default function Footer() {
                 { href: "/gallery", label: "Before & After" },
                 { href: "/about", label: "About Us" },
                 { href: "/contact", label: "Contact" },
-                { href: "/admin/bookings", label: "Staff Dashboard" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
